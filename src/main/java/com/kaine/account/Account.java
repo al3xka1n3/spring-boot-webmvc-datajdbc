@@ -6,7 +6,7 @@ import org.springframework.data.annotation.Id;
 import java.math.BigDecimal;
 
 @Data
-class Account {
+public class Account {
 
     @Id
     private Integer id;
