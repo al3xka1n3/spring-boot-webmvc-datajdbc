@@ -13,5 +13,5 @@ class Customer {
     private Integer id;
     private String firstName;
     private String lastName;
-    private Set<Account> account;
+    private Set<Account> accountSet;
 }
